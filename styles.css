@@ -1,0 +1,205 @@
+span {
+    font-weight: bold;
+}
+
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.header-fix {
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #eee;
+    border-bottom: 1 px solid #ddd;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header-container {
+    width: 1024px;
+    margin: auto;
+}
+
+.container {
+    width: 1024px;
+    margin: 84px auto 10px;
+    border-radius: 5px;
+    border: 1 px solid #bbbbbb;
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+article {
+    text-align: justify;
+}
+
+.marginTop50 {
+    margin-top: 50px;
+}
+
+.marginBot20 {
+    margin-bottom: 20px;
+}
+
+
+.inner-paragraph {
+    border: 1px dotted gray;
+    padding: 5px;
+    margin: 15px 10px;
+}
+
+.inner-paragraph-2 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px dotted gray;
+}
+
+.inner-paragraph-3 {
+    width: 50%;
+    text-align: center;
+    border: 1px dotted gray;
+}
+
+code {
+    padding: 10px;
+    font-size: 12px;
+    background-color: white;
+    color: blue;
+}
+
+pre.pre {
+    text-align: left;
+    background-color: white;
+    padding: 10px;
+}
+
+pre.pre code {
+    padding: 0px;
+}
+
+nav{
+    width: 100%;
+    text-align: right;
+}
+ul.menu{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+nav ul.menu li{
+    /*
+    Ang naas sample output kay walay margin.
+    margin-left: 20px;
+    */
+    text-align: center;
+    display: block;
+}
+
+nav ul.menu li a{
+    float: left;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #597aed;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul.menu li a:hover{
+    background-color: #1226ed;
+    color: white;
+}
+footer{
+    text-align: center;
+    font-size: 0.8rem;
+}
+footer p{
+    margin: 0;
+}
+label{
+    display: inline-block;
+    width: 280px;
+    color: green;
+}
+.parent-block {
+    border: 2px solid blue;
+}
+.parent-block-1 {
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+.parent-block-3 {
+    border: 2px solid blue;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent-block-4{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid blue;
+    height: 80px;
+}
+
+.parent-block-4-1{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid blue;
+    height: 80px;
+    position: relative;
+}
+
+.pbd1{
+    width: 30%;
+    margin: 1.5%;
+    border: 1px solid green;
+}
+
+.pbd2{
+    width: 30%;
+    margin: 1.5%;
+    border: 1px solid pink;
+}
+.pbd2-1{
+    width: 30%;
+    margin: 1.5%;
+    border: 1px solid pink;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.pbd2-1-1{
+    width: 30%;
+    margin: 1.5%;
+    border: 1px solid pink;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.pbd3{
+    width: 30%;
+    margin: 1.5%;
+    border: 1px solid gray;
+}
+.img_html5{
+    float: left;
+    width: 150px;
+    /*
+    di tugma sa sample output
+    padding: 25px 5px 5px 5px;
+    */
+}
+.sampletext{
+    text-align: justify;
+}
